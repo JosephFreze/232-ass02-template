@@ -128,9 +128,9 @@ int challenge03()
     int x = 3;
     int y = 7;
 
-    // x = x + y;
-    // y = x - y;
-    // x = x - y;
+    x = x + y;
+    y = x - y;
+    x = x - y;
 
     return 0;
 }
